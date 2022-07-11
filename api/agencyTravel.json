@@ -1,0 +1,83 @@
+{
+  "trips":[
+		{
+			"name": "Cañón de Autisha",
+			"description": "El Tour al Cañon de Autisha donde Realizaremos deportes de aventura, una caminata subterránea de 170 metros bajo la tierra, visitar una catarata subterránea, La Cueva de los murciélagos y realizar rapel de 30 metros.",
+			"location": "Lima",
+			"availability": "2022-07-02",
+			"dates": [
+				"Sábado 16 de julio", 
+				"Domingo 17 de julio"
+			],
+			"duration": "1 Día",
+			"image": "https://mochileaperu.com/wp-content/uploads/2017/06/autisha-3.jpg",
+			"priceNormalDates":[
+				"S/110 soles por persona + rapel",
+				"S/210 soles por persona + puneting",
+				"Precio antes del jueves, reservas pasando jueves suben S/20.00"
+			],
+			"priceHolidays":[
+				"S/.129 soles por persona + rapel",
+				"S/.230 soles por persona + puenting",
+				"Precio Pre-venta hasta el 18 de julio"
+			],
+			"includes":[
+				"Movilidad desde Lima",
+				"Seguro Soat / Chofer profesional",
+				"Equipo de seguridad personal",
+				"Rapel de 55 metros",
+				"Arnes personal",
+				"Linterna frontal Trekking subterráneo",
+				"Linea de vida",
+				"Guantes",
+				"Casco personal",
+				"Equipo de seguridad grupal",
+				"Cuerdas",
+				"Descensores",
+				"Mosquetones",
+				"Charla de seguridad",
+				"Vista al puente más alto de Lima Autisha",
+				"Catarata subterránea 'Seque'",
+				"Botiquín de primeros auxilios",
+				"Equipos de radio de comunicación",
+				"Fotos grupales subidas en la fanpage",
+				"Puenting si has cogido el paquete Puenting"
+			],
+			"notIncludes":[
+				"Ticket de Entrada",
+				"Alimentación",
+				"Pilas cigarrito"
+			],
+			"itinerario":[
+				" 04:30 am. Salida con dirección al tour (Partimos con puntualidad, no habrá tolerancia por respeto a todos los asistentes)",
+				" 09:30 am. Llegamos al punto de inicio, donde entregaremos los equipos de seguridad Certificados , Casco, Arnés, Linea de vidas para hacer tu visita al cañon la mas segura.",
+				" 10:00. Empezamos la visita del cañon adentrándonos 170 metros bajo la tierra, para eso tendremos que cruzar, tuneles oscuros, descendiendo escaleras Siempre con seguridad.",
+				" 11:00 Llegamos a la catarata y laguna subterránea de Sheke, Tendremos tiempo para admirarla y obtener muchas fotografías Y si te animas podrás refrescarte en sus frías aguas.",
+				" Como Plus Visitaremos la Cueva de los murciélagos.",
+				" 01:00 pmPara Finalizar Realizaremos un deporte aventura Llamado RAPEL de 30 metros, donde sacaras todo el estrés.",
+				" 02:00 pm hora de almuerzo",
+				" 03:00 Pm Visitaremos El Puente mas alto de lima (los que deseen podran hacer salto Puenting)",
+				" 05:00 pm. Recargado de energía retornaremos a Lima.",
+				" 08:30 pm. Llegada a Lima"
+			],
+			"toTake":{
+				"recommended":[
+					"No incluye la alimentación",
+					"Entradas"
+				],
+				"carry":[
+					"3 pilas tipo cigarrito",
+					"Lentes para sol",
+					"Protector solar",
+					"Cámara fotográfica",
+					"Ropa fresca para el día",
+					"Abrigo para la tarde"
+				]
+			}
+		},
+		{
+
+		}
+  ]
+
+}
