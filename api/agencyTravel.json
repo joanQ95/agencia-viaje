@@ -76,7 +76,10 @@
 			}
 		},
 		{
-
+			"name": "Paracas",
+			"description": "Paracas está en la costa de Ica y Realizaremos deportes de aventura, una caminata subterránea de 170 metros bajo la tierra, visitar una catarata subterránea, La Cueva de los murciélagos y realizar rapel de 30 metros.",
+			"location": "Ica",
+			"availability": "2022-08-28"
 		}
   ]
 

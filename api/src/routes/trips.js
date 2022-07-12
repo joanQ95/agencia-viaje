@@ -10,14 +10,13 @@ router.get("/", async (req, res) => {
     if (tripsJSON.length === 0) {
       throw new Error("No se encontraron viajes");
     } else {
-      let tripsDB = await Trip.findAll({
-
-			});
-			console.log(tripsDB[0].dataValues)
+			//console.log(tripsJSON.trips[0])
+      let tripsDB = await Trip.findAll({});
+			alltrips = [tripsDB[0].dataValues].concat(tripsJSON.trips) //aqui demuestro que soy barbaro
       res.status(201).json(tripsDB);
     }
   } catch (error) {
-    res.status(404).json(error);
+    console.log(error);
   }
 });
 
