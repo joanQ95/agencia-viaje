@@ -68,6 +68,10 @@
     cursor: pointer;
   }
   
+  .navbar-logo img{
+    width: 5rem;
+  }
+
   #close .navbar-nav {
     list-style-type: none;
     display: flex;

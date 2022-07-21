@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import ReorderIcon from "@material-ui/icons/Reorder";
 import { Link } from 'react-scroll'
+import logoNavbar from '../../assets/logo-limaviaja.jpg'
 import './Navbar.css'
 
 function Navbar() {
@@ -27,8 +28,8 @@ function Navbar() {
         </button>
       </div>
       <div className="links">
-        <div>
-          <img/>
+        <div className="navbar-logo">
+          <img src={logoNavbar} alt="logo"/>
         </div>
         <ul className='navbar-nav'>
           <li className="nav-item active">
