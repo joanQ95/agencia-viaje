@@ -5,12 +5,14 @@ import { Link } from 'react-scroll'
 import logoNavbar from '../../assets/logo-limaviaja.jpg'
 import './Navbar.css'
 
-function Navbar() {
+function Navbar({switchTheme}) {
   const [expandNavbar, setExpandNavbar] = useState(false);
 
   const location = useLocation();
   const myRef = []
-
+  /*DARK MODE*/
+  
+  /*END DARK MODE */
   useEffect(() => {
     setExpandNavbar(false);
     window.scrollTo(0, 0);
@@ -53,6 +55,9 @@ function Navbar() {
             </Link>
           </li>
         </ul>
+        <div className="toggle-dark-button">
+          <button onClick={switchTheme}></button>
+        </div>
       </div>
     </div>
   );

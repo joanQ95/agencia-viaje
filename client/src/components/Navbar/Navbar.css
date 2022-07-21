@@ -72,6 +72,20 @@
     width: 5rem;
   }
 
+  .toggle-dark-button button{
+    -webkit-appearance: none;
+    outline: 0;
+    z-index: 2;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-image: var(--gradient-style);
+    box-shadow: 0 0 14px var(--gradient-size) var(--gradient-shadow);
+    cursor: pointer;
+  }
+
   #close .navbar-nav {
     list-style-type: none;
     display: flex;
