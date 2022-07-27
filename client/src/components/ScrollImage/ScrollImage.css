@@ -1,0 +1,69 @@
+body {
+  background: #ccc;
+}
+
+.containerScroll {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* .slick-slide > div {
+  margin: 0 10px;
+}
+
+.slick-list {
+  margin: 0 -10px;
+} */
+
+.slick-prev {
+  /* position: absolute; */
+  margin: 0 50px !important;  
+  z-index: 1000;
+}
+.slick-prev:before {
+  /* position: absolute; */
+  content: "";
+}
+.slick-next {
+  /* position: absolute; */
+	margin: 0 50px !important;
+  z-index: 1000;
+}
+.slick-next:before {
+  /* position: absolute; */
+  content: "";
+}
+
+.card {
+  /* border: 1px solid;
+  border-radius: 8px; */
+  overflow: hidden;
+  height: auto;
+  max-height: 600px;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  /* margin: 15px; */
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.centered p {
+  font-size: 3.5rem;
+}
+
+.card-top h1 {
+  font-size: 1rem;
+}
+
+.card-top > img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
